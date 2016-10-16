@@ -10,7 +10,16 @@
     <script src="react/build/react.js"></script>
     <script src="react/build/react-dom.js"></script>
     <script>
-//        my apps code
+        ReactDOM.render(
+                React.DOM.h1({
+                    style:{
+                        background: "gray",
+                        color:"maroon",
+                        padding:"10"
+                    }
+                }, "hello world!"),
+                document.getElementById("app")
+        );
     </script>
     </body>
 </html>
